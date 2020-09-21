@@ -1,3 +1,4 @@
+#This program checks whether the two input strings are anagram or not.
 def anagram_check(s1,s2):
     a_list1 = list(s1)
     a_list2 = list(s2)
