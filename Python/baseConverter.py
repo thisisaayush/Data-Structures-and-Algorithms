@@ -4,7 +4,7 @@ def baseConverter(decNumber, base):
     while decNumber > 0:
         rem = decNumber % base
         toBase = rem.push()
-        decNumber = decNumber / base
+        decNumber = decNumber // base
 
     result = ""
 
