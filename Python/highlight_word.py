@@ -1,3 +1,4 @@
+#this program changes the given word of a sentence to upper case.
 def highlight_word(sentence, word):
 	return(sentence.replace(word,word.upper()))
 
